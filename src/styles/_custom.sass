@@ -1,14 +1,26 @@
 .banner-principal-decorativo
   &-1
-    animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 10%
+    right: 10%
+    width: 80%
   &-2
     animation: float1 2.8s ease-in-out infinite alternate
     position: absolute
-    top: 51%
-    right: 30%
+    top: 21%
+    right: 20%
+
+  &-3
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 21%
+    right: 60%
+
+  &-4
+    animation: float1 2.8s ease-in-out infinite alternate
+    position: absolute
+    top: 35%
+    right: 83%
 
 
 @keyframes float1
@@ -17,3 +29,181 @@
 
   100%
     transform: translateY(0px)
+
+//Estilos Adicionales
+
+.bloque-texto-b.color-secundario:before
+    background-color: #F2FBE3
+    margin-bottom: 10%
+
+///// Custom acordeon A tipo A -------------------------------------- 
+.tarjeta.acordeonA
+  background-color: #F6F6F6
+
+.acordion__accion__btn--a
+  background-color: $color-acento-contenido !important
+
+.acordion__activo
+  background-color: #FFF7E0 !important
+
+.lista-ul--color li > i:first-of-type 
+    color: #FC4B52
+
+.banner1-tema-1
+  background-image: url("../assets/curso/temas/tema1/bgr1.png") !important
+  background-size: 100% 100%
+
+.banner2-tema-1
+  background-image: url("../assets/curso/temas/tema1/bgr2.png") !important
+  background-size: 100% 100%
+
+///// SLyder A tipo B Custom --------------------------------------
+.slyder-a__tipo-b .slyder-a__btn--atrs
+  background-color: #EEAC3A
+
+.slyder-a__tipo-b .slyder-a__btn--sigt
+  background-color: #EEAC3A
+
+.slyder-a__btn--sigt, .slyder-a__btn--atrs  
+  border: none
+
+.slyder-a__bullets__item--active
+  background-color: #869495 !important
+  border: none
+
+.slyder-a__bullets__item
+  background-color: #AFAFAF  
+
+.background-tarjeta-tema1
+  background-color: #FFE4E5
+  border-top-left-radius: 20px
+  border-bottom-left-radius: 20px
+
+.background2-tarjeta-tema1
+  background-color: #FEC8CA
+  border-top-left-radius: 20px
+  border-bottom-left-radius: 20px
+
+.pasos-b__header__item--before .pasos-b__header__item__dot 
+    border-color: $color-acento-botones
+    background-color: $color-acento-botones
+
+.pasos-b__header__item--before .pasos-b__header__item__line-container:before, .pasos-b__header__item--before .pasos-b__header__item__line-container:after 
+    background-color: $color-acento-botones
+
+.pasos-b__header__item--before .pasos-b__header__item__line-container:before, .pasos-b__header__item--before .pasos-b__header__item__line-container:after 
+    background-color: $color-acento-botones
+
+.pasos-b__header__item--active .pasos-b__header__item__line-container:before 
+    background-color: $color-acento-botones
+
+///// Linea tiempo D --------------------------------------
+.linea-tiempo-d__item__content.tarjeta.tarjeta--gris, .linea-tiempo-d__item__number.tarjeta.tarjeta--gris
+  background-color: $color-secundario
+
+.linea-tiempo-d__item.row.linea-tiempo-d__item--selected
+  .linea-tiempo-d__item__content.tarjeta.tarjeta--gris
+    background-color: #FFF2CA
+
+.linea-tiempo-d.color-secundario .linea-tiempo-d__item--selected .linea-tiempo-d__item__number 
+    background-color: #FFF2CA
+
+
+.banner3-tema-1
+  background-color: #E8E8E8 
+  background-size: 100% 100%
+
+.cajonAmarillo
+  position: relative
+  &:before
+    content: ''
+    display: block
+    width: 25px
+    height: 10px
+    position: absolute
+    top: 0
+    left: 0
+
+  &.color-primario
+    background-color: #FFF6DB
+    &:before
+      background-color: #FDB74D
+  &.color-secundario
+    background-color: lighten($color-secundario, 20%)
+    &:before
+      background-color: $color-secundario
+  &.color-acento-contenido
+    background-color: lighten($color-acento-contenido, 30%)
+    &:before
+      background-color: $color-acento-contenido
+  &.color-acento-botones
+    background-color: lighten($color-acento-botones, 35%)
+    &:before
+      background-color: $color-acento-botones
+
+.bgr-tarjeta-tema1:before
+    background: #A7E446
+    
+.bgr-tarjeta-tema1
+    background: #E9F8D0
+
+.bloque-texto-g__img 
+    left: 50%
+
+@media screen and ( max-width: 500px )
+  .bloque-texto-g__img 
+    left: 0%
+  
+
+.bloque-texto-g__texto 
+    width: 70%
+    right: 30%
+@media screen and ( max-width: 500px )
+  .bloque-texto-g__texto 
+    width: 100%
+    right: 0%
+  
+
+.bloque-texto-f.color-secundario:before 
+    background-color: #F2FBE3
+
+.bloque-texto-f:before 
+    right: 60%
+
+.margin-bloque-texto-b
+  &:before
+    margin-bottom: 2% !important
+
+.width-img-tema2
+  width: 50%
+  margin-left: 25%
+
+@media screen and ( max-width: 500px )
+  .width-img-tema2
+    width: 50%
+    margin-left: 25%
+  
+
+.clr-paleYellow
+  background-color: #E7CCCD
+
+.tabs-a__tab 
+    background-color: #E8E8E8
+
+//custom botones slyder en movil
+@media screen and ( max-width: 500px )
+  .slyder-a__tipo-b .slyder-a__btn--sigt 
+    width: 30px
+    height: 30px
+
+@media screen and ( max-width: 500px )
+  .slyder-a__btn--sigt, .slyder-a__btn--atrs 
+    width: 30px
+    height: 30px
+
+@media screen and ( max-width: 500px )
+  .slyder-a__bullets__item 
+    width: 8px
+    height: 8px
+    
+ 
