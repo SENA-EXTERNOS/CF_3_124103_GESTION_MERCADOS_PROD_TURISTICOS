@@ -17,7 +17,7 @@
 
       .col-lg-4
         figure(data-aos="zoom-in")
-          img(src='@/assets/curso/temas/introduccion/img1.svg', alt='Texto que describa la imagen') 
+          img(src='@/assets/curso/temas/introduccion/img1.svg', alt='Texto que describa la imagen').banner-principal-decorativo-5
 
     .row.mt-5
       p En el siguiente video conocerá, de forma general, la temática que estudiará a lo largo del componente formativo. #[b ¡Muchos éxitos en este proceso de aprendizaje!]

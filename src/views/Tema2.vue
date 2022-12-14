@@ -10,10 +10,10 @@
     .row.justify-content-center.align-items-center.mt-5
       .col-lg-2
         figure(data-aos="zoom-in")
-          img(src='@/assets/curso/temas/tema2/img1.svg', alt='Texto que describa la imagen') 
+          img(src='@/assets/curso/temas/tema2/img1.svg', alt='Texto que describa la imagen').banner-principal-decorativo-5
 
       .col-lg-8
-        p La venta en sí misma es una transacción comercial entre dos agentes económicos. Es un proceso voluntario donde una empresa o persona ofrece de manera legal productos a otra, denominada cliente potencial, buscando que esta pague el precio esperado. De acuerdo con esto, para que se realice una venta debe asegurarse: 
+        p.mt-5 La venta en sí misma es una transacción comercial entre dos agentes económicos. Es un proceso voluntario donde una empresa o persona ofrece de manera legal productos a otra, denominada cliente potencial, buscando que esta pague el precio esperado. De acuerdo con esto, para que se realice una venta debe asegurarse: 
 
         ul.lista-ul--color
           li 
@@ -132,10 +132,10 @@
     .row.justify-content-center.align-items-center.mt-5
       .col-lg-2
         figure(data-aos="zoom-in")
-          img(src='@/assets/curso/temas/tema2/img10.svg', alt='Texto que describa la imagen') 
+          img(src='@/assets/curso/temas/tema2/img10.svg', alt='Texto que describa la imagen').banner-principal-decorativo-5 
 
       .col-lg-10
-        p Los informes son la herramienta de gestión más utilizada en el ámbito empresarial, en los cuales se resume la planeación, gestión y/o seguimiento sobre un tema, actividad o proyecto en particular. En este sentido, la realización de informes suele ser una actividad específica asociada a los diferentes roles relacionados con mercadeo y ventas.
+        p.mt-5 Los informes son la herramienta de gestión más utilizada en el ámbito empresarial, en los cuales se resume la planeación, gestión y/o seguimiento sobre un tema, actividad o proyecto en particular. En este sentido, la realización de informes suele ser una actividad específica asociada a los diferentes roles relacionados con mercadeo y ventas.
 
         p A nivel empresarial, los ítems que se suelen abordar en informes de tipo empresarial son:
 
@@ -278,19 +278,16 @@
 
     .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
       .bloque-texto-g__img(
-        :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img21.png')})`}"
+        :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img21.svg')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 Think about all the possibilities. A good composition is the result of a hierarchy consisting of clearly contrasting elements set with distinct alignments containing irregular intervals of negative space. Nothing of without working at it. Be impossible to ignore.
-          br
-          br
-          | Stand so tall that they can’t look past you. Saul Bass on failure: Failure is built into creativity… the creative act involves this element of ‘newness’ and ‘experimentalism,’ then one must expect accept possibility of failure.   
+        p.mb-0 El plan comercial y la propuesta comercial son dos elementos claves dentro de las ventas; el primero (plan comercial) da línea de cómo la empresa concibe el modelo comercial, para lo cual en este se plantean cuáles son las tácticas y actividades puntuales que llevarán al cumplimiento de las ventas; con la segunda herramienta (propuesta comercial) se muestra un proceso de ventas estructurado, donde al cliente se le da a conocer, de una forma clara, cuál es la oferta comercial que le ofrece la empresa.
 
 
     .row.justify-content-around.align-items-center.mt-5
       .col-lg-4
         figure(data-aos="zoom-in")
-          img(src='@/assets/curso/temas/tema2/img22.svg', alt='Texto que describa la imagen') 
+          img(src='@/assets/curso/temas/tema2/img22.svg', alt='Texto que describa la imagen').banner-principal-decorativo-5
 
       .col-lg-8
         .bloque-texto-b.color-secundario.p-4.mt-3.margin-bloque-texto-b

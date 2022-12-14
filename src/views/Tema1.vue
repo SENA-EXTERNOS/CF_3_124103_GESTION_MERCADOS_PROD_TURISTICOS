@@ -10,10 +10,10 @@
     .row.justify-content-around.align-items-center.mt-5
       .col-lg-4
         figure(data-aos="zoom-in")
-          img(src='@/assets/curso/temas/tema1/img1.svg', alt='Texto que describa la imagen') 
+          img(src='@/assets/curso/temas/tema1/img1.svg', alt='Texto que describa la imagen').banner-principal-decorativo-5 
 
       .col-lg-8
-        p La comunicación es un proceso recíproco de transmisión de información y conceptos por medio de un sistema ordenado y haciendo uso de los canales. No todas las personas se comunican de la misma forma, sin embargo, gracias a la comunicación es posible generar interacciones. 
+        p.mt-5 La comunicación es un proceso recíproco de transmisión de información y conceptos por medio de un sistema ordenado y haciendo uso de los canales. No todas las personas se comunican de la misma forma, sin embargo, gracias a la comunicación es posible generar interacciones. 
 
         p Cabe mencionar que la comunicación ha avanzado mucho en los últimos años, principalmente gracias a la tecnología, ya que es posible usar sistemas y códigos que permiten eliminar barreras como la distancia y la época, desarrollando modelos de entendimiento y organización.
       
@@ -21,16 +21,16 @@
       p La comunicación cumple con una serie de funciones, las cuales dependen de los objetivos propuestos:
 
       figure(data-aos="zoom-in")
-          img(src='@/assets/curso/temas/tema1/img2.svg', alt='Texto que describa la imagen')  
+          img(src='@/assets/curso/temas/tema1/img2.svg', alt='Texto que describa la imagen') 
 
 
     .row.justify-content-around.align-items-center.mt-5
       .col-lg-3
         figure(data-aos="zoom-in")
-          img(src='@/assets/curso/temas/tema1/img3.svg', alt='Texto que describa la imagen') 
+          img(src='@/assets/curso/temas/tema1/img3.svg', alt='Texto que describa la imagen').banner-principal-decorativo-5
 
       .col-lg-9
-        p La comunicación cuenta con diferentes elementos: el emisor, que es la persona que ejecuta la transmisión del mensaje; el receptor, que es la persona a la que se destina el mensaje; el mensaje, que es aquello que se quiere informar; el medio, que es la forma como se comunica el mensaje (si se trata de un lenguaje hablado, escrito, etc.) y el #[i feedback], que es la retroalimentación, es decir, la respuesta que genera en la otra persona todo el sistema comentado. 
+        p.mt-5 La comunicación cuenta con diferentes elementos: el emisor, que es la persona que ejecuta la transmisión del mensaje; el receptor, que es la persona a la que se destina el mensaje; el mensaje, que es aquello que se quiere informar; el medio, que es la forma como se comunica el mensaje (si se trata de un lenguaje hablado, escrito, etc.) y el #[i feedback], que es la retroalimentación, es decir, la respuesta que genera en la otra persona todo el sistema comentado. 
 
     .bg--img_03.mt-5
       .row.justify-content-center.mb-4
@@ -272,7 +272,7 @@
                   img(src='@/assets/curso/temas/tema1/img16.svg', alt='')
 
               .col-lg-7.mb-4.mb-lg-0
-                p #[b Canales presenciales:] los canales presenciales, también llamados canales ‘cara a cara’, son aquellos en los cuales interactúan dos o más personas a través de contacto directo. Son importantes porque generan cercanía con los clientes, por tanto, la efectividad de este canal depende de la comunicación empática y asertiva.
+                p.mt-3 #[b Canales presenciales:] los canales presenciales, también llamados canales ‘cara a cara’, son aquellos en los cuales interactúan dos o más personas a través de contacto directo. Son importantes porque generan cercanía con los clientes, por tanto, la efectividad de este canal depende de la comunicación empática y asertiva.
 
             .row.justify-content-center(titulo="Canal 2").pt-3
               .col-lg-4.col-xs-6
@@ -280,7 +280,7 @@
                   img(src='@/assets/curso/temas/tema1/img17.svg', alt='')
 
               .col-lg-7.mb-4.mb-lg-0
-                p #[b Canales telefónicos:] son relevantes para generar interacciones enfocadas en gestionar trámites y solicitudes; posibilitan la atención proactiva (la empresa contacta al cliente) o reactiva (el cliente llama a la empresa).
+                p.mt-3 #[b Canales telefónicos:] son relevantes para generar interacciones enfocadas en gestionar trámites y solicitudes; posibilitan la atención proactiva (la empresa contacta al cliente) o reactiva (el cliente llama a la empresa).
 
             .row.justify-content-center(titulo="Canal 3").pt-3
               .col-lg-4.col-xs-6
@@ -288,7 +288,7 @@
                   img(src='@/assets/curso/temas/tema1/img18.svg', alt='')
 
               .col-lg-7.mb-4.mb-lg-0
-                p #[b Canales digitales: ] son los canales que están soportados por la tecnología; se caracterizan por ser bidireccionales, es decir, que el emisor envía la información, y haciendo uso del mismo canal, el receptor le responde. Los más utilizados son las redes sociales, aplicaciones para mensajería instantánea, chatbots y el correo electrónico.
+                p.mt-3 #[b Canales digitales: ] son los canales que están soportados por la tecnología; se caracterizan por ser bidireccionales, es decir, que el emisor envía la información, y haciendo uso del mismo canal, el receptor le responde. Los más utilizados son las redes sociales, aplicaciones para mensajería instantánea, chatbots y el correo electrónico.
 
             .row.justify-content-center(titulo="Canal 4").pt-3
               .col-lg-4.col-xs-6
@@ -296,7 +296,7 @@
                   img(src='@/assets/curso/temas/tema1/img19.svg', alt='')
 
               .col-lg-7.mb-4.mb-lg-0
-                p #[b Las redes sociales: ] en los últimos años este canal ha ido en ascenso, las marcas y empresas las utilizan para generar todo tipo de interacciones con sus clientes actuales y potenciales. Las redes sociales más utilizadas por las empresas en Colombia son Twitter, Facebook, LinkedIn y YouTube.
+                p.mt-3 #[b Las redes sociales: ] en los últimos años este canal ha ido en ascenso, las marcas y empresas las utilizan para generar todo tipo de interacciones con sus clientes actuales y potenciales. Las redes sociales más utilizadas por las empresas en Colombia son Twitter, Facebook, LinkedIn y YouTube.
 
             .row.justify-content-center(titulo="Canal 5").pt-3
               .col-lg-4.col-xs-6
@@ -304,7 +304,7 @@
                   img(src='@/assets/curso/temas/tema1/img20.svg', alt='')
 
               .col-lg-7.mb-4.mb-lg-0
-                p #[b Aplicaciones para mensajería instantánea: ] denominadas también apps de chat o apps de mensajería, son canales en los que se puede hablar en tiempo real a través de la mediación tecnológica; permiten la comunicación vía texto, llamada o videollamada, sin embargo, requieren que tanto emisor como receptor cuenten con un dispositivo con conectividad (computador, tablet o smartphone). Las apps de mensajería más utilizadas actualmente son: WhatsApp, Telegram, Facebook Messenger, Snapchat y Google chat.
+                p.mt-3 #[b Aplicaciones para mensajería instantánea: ] denominadas también apps de chat o apps de mensajería, son canales en los que se puede hablar en tiempo real a través de la mediación tecnológica; permiten la comunicación vía texto, llamada o videollamada, sin embargo, requieren que tanto emisor como receptor cuenten con un dispositivo con conectividad (computador, tablet o smartphone). Las apps de mensajería más utilizadas actualmente son: WhatsApp, Telegram, Facebook Messenger, Snapchat y Google chat.
 
             .row.justify-content-center(titulo="Canal 6").pt-3
               .col-lg-4.col-xs-6
@@ -312,7 +312,7 @@
                   img(src='@/assets/curso/temas/tema1/img21.svg', alt='')
 
               .col-lg-7.mb-4.mb-lg-0
-                p #[b Chatbots: ] este medio de atención al cliente es sin duda el más rápido, teniendo en cuenta que se trata de un canal muy eficaz. Los chatbots aparecieron hace pocos años, como una tecnología novedosa que permite la atención automatizada del cliente utilizando la inteligencia artificial; este tipo de tecnología es relativamente útil para hacer preguntas técnicas, sin embargo, su desventaja es que aún no es lo suficientemente eficaz como para mantener conversaciones en lenguaje natural.
+                p.mt-3 #[b Chatbots: ] este medio de atención al cliente es sin duda el más rápido, teniendo en cuenta que se trata de un canal muy eficaz. Los chatbots aparecieron hace pocos años, como una tecnología novedosa que permite la atención automatizada del cliente utilizando la inteligencia artificial; este tipo de tecnología es relativamente útil para hacer preguntas técnicas, sin embargo, su desventaja es que aún no es lo suficientemente eficaz como para mantener conversaciones en lenguaje natural.
 
             .row.justify-content-center(titulo="Canal 7").pt-3
               .col-lg-4.col-xs-6
@@ -320,7 +320,7 @@
                   img(src='@/assets/curso/temas/tema1/img22.svg', alt='')
 
               .col-lg-7.mb-4.mb-lg-0
-                p #[b Correo electrónico (#[i e-mail]): ] este medio sirve para enviar y recibir mensajes a través de redes de comunicación electrónica; así mismo, posibilita informar las novedades de una marca o producto. Adicionalmente, es útil como medio para dejar trazabilidad de la comunicación con un cliente.
+                p.mt-3 #[b Correo electrónico (#[i e-mail]): ] este medio sirve para enviar y recibir mensajes a través de redes de comunicación electrónica; así mismo, posibilita informar las novedades de una marca o producto. Adicionalmente, es útil como medio para dejar trazabilidad de la comunicación con un cliente.
 
             .row.justify-content-center(titulo="Canal 8").pt-3
               .col-lg-4.col-xs-6
@@ -328,7 +328,7 @@
                   img(src='@/assets/curso/temas/tema1/img23.svg', alt='')
 
               .col-lg-7.mb-4.mb-lg-0
-                p #[b Tipos de canales: ] En el contexto actual, lo ideal es que la empresa utilice todos los canales (presencial, telefónico y digital), esto posibilita brindar una mejor experiencia al cliente, ya que le da la oportunidad a este de decidir con cuál canal se siente más cómodo para contactar a la empresa.
+                p.mt-3 #[b Tipos de canales: ] En el contexto actual, lo ideal es que la empresa utilice todos los canales (presencial, telefónico y digital), esto posibilita brindar una mejor experiencia al cliente, ya que le da la oportunidad a este de decidir con cuál canal se siente más cómodo para contactar a la empresa.
 
 
 
@@ -348,7 +348,7 @@
           img(src='@/assets/curso/temas/tema1/img24.svg', alt='Texto que describa la imagen') 
 
       .col-lg-9
-        p A nivel empresarial, los protocolos de comunicación se basan en algo denominado ‘etiqueta empresarial’, la cual se interpreta como un conjunto de normas que define la empresa, con el fin de actuar de manera correcta en los diferentes ámbitos de la compañía, comunicando siempre su identidad corporativa.
+        p.mt-3 A nivel empresarial, los protocolos de comunicación se basan en algo denominado ‘etiqueta empresarial’, la cual se interpreta como un conjunto de normas que define la empresa, con el fin de actuar de manera correcta en los diferentes ámbitos de la compañía, comunicando siempre su identidad corporativa.
 
         p En este sentido, la etiqueta empresarial es una de las herramientas de comunicación y relacionamiento prácticas más poderosas que tiene una empresa, dado que la aplicación de esta permitirá una diferenciación positiva frente a otras empresas. En términos prácticos, la etiqueta empresarial no solo es un tema personal (de los colaboradores), sino organizacional, por lo que la aplicación de esta transmite confianza, tranquilidad y genera una buena imagen.
 
@@ -371,7 +371,7 @@
 
           p(numero="6" titulo="Etiqueta empresarial") A modo de referente, Bogotá Emprende, a través de la Secretaría de Desarrollo Económico de Bogotá, Cámara de Comercio de Bogotá, plantea las reglas de oro en materia de etiqueta empresarial, las cuales tienen como fin dar algunas pautas para los colaboradores de la empresa, que permitan orientar de una forma más asertiva la comunicación.
 
-      .col-8.col-lg-4
+      .col-8.col-lg-4.mt-3
         figure
           img(src="@/assets/curso/temas/tema1/img25.svg", alt="alt")
 
