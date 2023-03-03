@@ -33,40 +33,47 @@
            p A modo de ejemplo, se tienen las siguientes situaciones: una agencia de viajes realiza la venta de tiquetes a diferentes empresas para sus ejecutivos; en este caso, como el cliente (es decir, quien paga) es una empresa, es una venta B2B. Cuando las personas van a la oficina de viajes a separar un paquete para sus vacaciones se trata de una venta B2C, ya que aquí la agencia le está vendiendo directamente al usuario; y si la agencia de viajes se presenta a una licitación para gestionar los viajes de la alcaldía de una ciudad, estaría bajo un modelo de negocio B2G, dado que su cliente es una entidad del sector público.
 
 
-    separador
-
-    #t_2_1
-
-    .titulo-segundo.color-acento-contenido.mt-5(data-aos="zoom-in-left")
-      h2 2.1 El ciclo de venta
+    ul.lista-ul--color
+          li 
+            i.fas.fa-square
+            h3.mb-0 El ciclo de venta
     
     .row.mt-5
-      p A continuación se nombran los diferentes tipos de ventas.
+      p  A continuación,se mencionan los diferentes aspectos a tener en cuenta en la venta.
 
     .tarjeta.tarjeta--azul.p-4.banner1-tema-1
       SlyderA(tipo="b")
         .row.justify-content-around.align-items-center
           .col-md-6.mb-4.mb-md-0 
             P #[b Tipos de clientes]
-            p Existen diferentes tipos de ventas, sin embargo, para un vendedor de productos turísticos es importante conocer las ventas según el tipo de cliente al cual se realiza la venta. 
+            p Existen diferentes tipos de ventas, sin embargo, para un vendedor de productos turísticos es importante conocer las ventas según el tipo de cliente con el cual esté interactuando. 
+
+            p Este concepto de tipos de ventas según el cliente comenzó con fuerza en el comercio electrónico, sin embargo, actualmente es utilizado también en el contexto <i>offline</i>.
 
           .col-md-6
             figure
               img(src='@/assets/curso/temas/tema2/img2.png', alt='Texto que describa la imagen')
 
-        .row.justify-content-around.align-items-center
-          .col-md-6.mb-4.mb-md-0 
-            P #[b Comercio electrónico]
-            p Este concepto de tipos de ventas según el cliente comenzó con fuerza en el comercio electrónico, sin embargo, actualmente es utilizado también en el contexto offline.
-
-          .col-md-6
-            figure
-              img(src='@/assets/curso/temas/tema2/img3.png', alt='Texto que describa la imagen')
 
         .row.justify-content-around.align-items-center
           .col-md-6.mb-4.mb-md-0 
             P #[b Clases de ventas]
-            p Las ventas Business to Business (conocidas como B2B) son aquellas que realiza una empresa a otra empresa; las ventas Business to Consumer (conocidas como B2C) son las que realiza una empresa al consumidor final, y las ventas #[i Business to Government] (B2G) son aquellas en las que una empresa vende sus productos al gobierno o a entidades públicas.
+
+            ul.lista-ul--color
+              li 
+                i.fas.fa-check
+                 p.mb-0 <b>Business to Business (B2B):</b>  son aquellas que realiza una empresa a otra empresa.
+
+              li 
+                i.fas.fa-check
+                 p.mb-0 <b>Business to Consumer (B2C):</b> son las que realiza una empresa al consumidor final.
+
+
+              li 
+                i.fas.fa-check
+                 p.mb-0 <b>Business to Government (B2G):</b> son aquellas en las que una empresa vende sus productos al gobierno o a entidades públicas.
+
+            
 
           .col-md-6
             figure
@@ -76,6 +83,8 @@
           .col-md-6.mb-4.mb-md-0 
             P #[b El ciclo de la venta]
             p Para realizar de manera adecuada e influenciar el éxito de la venta, esta debe verse de forma integral. Por ello, se han definido tres momentos secuenciales: preventa, venta y posventa, que se conocen como el ciclo de la venta y en los cuales se desarrolla el ciclo comercial.
+
+            p De acuerdo con lo anterior, a continuación se describen cada una de las fases que conforman el ciclo de venta, las cuales, de acuerdo con la estructura, deben darse secuencialmente: preventa (primer momento), venta (segundo momento) y posventa (tercer momento).
 
           .col-md-6
             figure
@@ -93,7 +102,10 @@
         .row.justify-content-around.align-items-center
           .col-md-6.mb-4.mb-md-0 
             P #[b Preventa]
-            p Es el momento previo a la venta. En esta etapa el vendedor define quiénes son sus clientes potenciales, de allí extrae a aquellos con mayor probabilidad de éxito (llamados clientes prospectos), los contacta, genera el acercamiento, detecta su necesidad y prepara el tipo de oferta (portafolio) a presentar. Una buena preventa tiene un gran trabajo previo durante el contacto con el cliente prospecto, dado que se debe tener buen conocimiento del portafolio de productos, se debe investigar sobre el perfil del cliente y se debe propender por generar un acercamiento muy asertivo y respetuoso.
+            p Es el momento previo a la venta. En esta etapa el vendedor define quiénes son sus clientes potenciales, de allí extrae a aquellos con mayor probabilidad de éxito (llamados clientes prospectos), los contacta, genera el acercamiento, detecta su necesidad y prepara el tipo de oferta (portafolio) a presentar. 
+
+            p Una buena preventa tiene un gran trabajo previo al contacto con el cliente prospecto, dado que se debe tener buen conocimiento del portafolio de productos, se debe investigar sobre el perfil del cliente y se debe propender por generar un acercamiento muy asertivo de acuerdo a su perfil.
+
 
           .col-md-6
             figure
@@ -103,7 +115,9 @@
         .row.justify-content-around.align-items-center
           .col-md-6.mb-4.mb-md-0 
             P #[b Venta]
-            p Es el más grande momento de verdad, es decir, allí se tiene el contacto con el cliente (a través de cualquier medio presencial o virtual), se realiza la presentación del portafolio a ofrecer, se resuelve sus inquietudes y se espera que el vendedor llegue al objetivo de esta etapa: el cierre de la venta, es decir, cuando el cliente acepta adquirir el bien o servicio. En la venta se aplican las técnicas de ventas, se debaten objeciones y se implementan modelos de negociación según como se vaya desarrollando el proceso, además se realizan todos los esfuerzos comerciales para que el prospecto diga “sí, voy a comprar el producto”.
+            p Es el más grande momento de verdad, es decir, allí se tiene el contacto con el cliente (a través de cualquier medio presencial o virtual), se realiza la presentación del portafolio a ofrecer, se resuelven sus inquietudes y se espera que el vendedor llegue al objetivo de esta etapa, el cierre de la venta, es decir, cuando el cliente acepta adquirir el bien o servicio. 
+
+            p En la venta se aplican diferentes técnicas, se debaten objeciones y se implementan modelos de negociación según como se vaya desarrollando el proceso, además se realizan todos los esfuerzos comerciales para que el prospecto diga “sí, voy a comprar el producto”.
 
           .col-md-6
             figure
@@ -119,15 +133,12 @@
               img(src='@/assets/curso/temas/tema2/img9.png', alt='Texto que describa la imagen')
 
      
-
-    
-
-    separador
-
-    #t_2_2
-
-    .titulo-segundo.color-acento-contenido.mt-5(data-aos="zoom-in-left")
-      h2 2.2 Informes de ventas
+  
+    .row.mt-5
+      ul.lista-ul--color
+        li 
+          i.fas.fa-square
+          h3.mb-0 Informes de ventas
 
     .row.justify-content-center.align-items-center.mt-5
       .col-lg-2
@@ -167,11 +178,11 @@
 
             .row(titulo="Conclusiones y/o recomendaciones")
               .col-12
-                p.mb-0 Este punto constituye el valor agregado de los informes y está orientado a conocer, de una forma técnica, cuál es la percepción de los grandes resultados del informe y cuáles son las opciones de mejora que se identifican.
+                p.mb-0 Este punto constituye el valor agregado de los informes y está orientado a conocer, de una forma técnica, concreta y propositiva, cuál es la percepción de los grandes resultados del informe y cuáles son las opciones de mejora que se identifican. 
 
             .row(titulo="Entrega de informes")
               .col-12
-                p.mb-0 En cuanto a los formatos, la mayoría de los informes son realizados en programas de ofimática, tipo procesador de datos (Word) o tipo presentación (PowerPoint) y entregados en formato no editable (tipo PDF). No obstante, las empresas que implementan informes o reportes en aplicaciones de Inteligencia de Negocios (BI), acuden a herramienta de visualización con el fin de tener la información de forma digital y en tiempo real, lo anterior se conoce como dashboards o tableros de visualización, cada vez más implementados en las compañías. Algunas de las aplicaciones de Inteligencia de Negocios que tienen componentes de visualización de información son: Power BI (de Microsoft), Qlik y Tableau.
+                p.mb-0 En cuanto a los formatos, la mayoría de los informes son realizados en programas de ofimática, tipo procesador de datos (Word) o tipo presentación (PowerPoint) y entregados en formato no editable (tipo PDF). No obstante, las empresas que implementan informes o reportes en aplicaciones de Inteligencia de Negocios (BI), acuden a herramientas de visualización con el fin de tener la información de forma digital y en tiempo real, lo anterior se conoce como dashboards o tableros de visualización, cada vez más implementados en las compañías. Algunas de las aplicaciones de BI que tienen componentes de visualización de información son: Power BI (de Microsoft), Qlik y Tableau.
 
             .row(titulo="Reportes de ventas")
               .col-12
@@ -244,7 +255,7 @@
               ul.lista-ul--color
                 li 
                   i.fas.fa-check
-                  p.mb-0.text-small Cumplimiento del presupuesto de ventas: es el porcentaje que muestra la cantidad de dinero vendido hasta la fecha dividido entre el total de dinero esperado. En el caso de que no solo exista presupuesto de ventas en dinero, sino también en cantidades o volumen, deberá mostrarse el indicador.
+                  p.mb-0.text-small Cumplimiento del presupuesto de ventas: es el porcentaje que muestra la cantidad de dinero vendido hasta la fecha, dividido entre el total de dinero esperado. En el caso de que no solo exista presupuesto de ventas en dinero, sino también en cantidades o volumen, se debe mostrar el indicador.
 
                 li 
                   i.fas.fa-check
@@ -269,20 +280,18 @@
               p.text-small Que incluya datos actualizados y puntuales.
 
 
-    separador
-
-    #t_2_3
-
-    .titulo-segundo.color-acento-contenido.mt-5(data-aos="zoom-in-left")
-      h2 2.3 Propuesta y plan comercial
+    .row.mt-3
+      ul.lista-ul--color
+        li 
+          i.fas.fa-square
+          h3.mb-0 Propuesta y plan comercial
 
     .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img21.svg')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 El plan comercial y la propuesta comercial son dos elementos claves dentro de las ventas; el primero (plan comercial) da línea de cómo la empresa concibe el modelo comercial, para lo cual en este se plantean cuáles son las tácticas y actividades puntuales que llevarán al cumplimiento de las ventas; con la segunda herramienta (propuesta comercial) se muestra un proceso de ventas estructurado, donde al cliente se le da a conocer, de una forma clara, cuál es la oferta comercial que le ofrece la empresa.
-
+        p.mb-0 El plan comercial y la propuesta comercial son dos elementos claves dentro de las ventas; el primero (plan comercial) da línea de cómo la empresa concibe el modelo comercial, en este se plantean cuáles son las tácticas y actividades puntuales que llevarán al cumplimiento de las ventas; con la segunda herramienta (propuesta comercial) se muestra un proceso de ventas estructurado, donde al cliente se le da a conocer de una forma clara, cuál es la oferta comercial que le ofrece la empresa. 
 
     .row.justify-content-around.align-items-center.mt-5
       .col-lg-4
@@ -292,11 +301,12 @@
       .col-lg-8
         .bloque-texto-b.color-secundario.p-4.mt-3.margin-bloque-texto-b
           .bloque-texto-b__texto
-            p El plan comercial y la propuesta comercial son dos elementos claves dentro de las ventas; el primero (plan comercial) da línea de cómo la empresa concibe el modelo comercial, para lo cual en este se plantean cuáles son las tácticas y actividades puntuales que llevarán al cumplimiento de las ventas; con la segunda herramienta (propuesta comercial) se muestra un proceso de ventas estructurado, donde al cliente se le da a conocer, de una forma clara, cuál es la oferta comercial que le ofrece la empresa.
+            p En ocasiones, se suele confundir un plan comercial con un plan de ventas; sin embargo, el plan comercial tiene una perspectiva más estratégica, pues está orientado a establecer los objetivos que se tienen en el negocio y las estrategias holísticas que se diseñan para alcanzarlos. No obstante, el plan de ventas describe con detalle el paso a paso de cómo se van a lograr las metas propuestas, por lo tanto, tiene un alcance más táctico y operativo; con todo, algunas empresas suelen realizar un solo plan con el objetivo de tener un poco más de simplicidad en las herramientas de trabajo. 
 
         .bloque-texto-f.color-secundario.p-4.mt-3 
           .bloque-texto-f__texto
-            p A continuación, se expone la estructura de uno y otro, y se dejará a libre elección considerar si, según cada empresa, es más recomendable trabajarlos por separado o consolidar toda la información.
+            p A continuación, se expone la estructura de cada uno, y se dejará a libre elección considerar si, según cada empresa, es más recomendable trabajarlos por separado o consolidar toda la información.
+
 
     .row.mt-3
       ul.lista-ul--color
@@ -317,8 +327,10 @@
             figure
               img(src='@/assets/curso/temas/tema2/img23.svg', alt='Texto que describa la imagen').width-img-tema2
             p #[b Objetivos]
-            p Definir los objetivos en términos de ingresos (dinero) y de clientes; estas dos son variables que deben estar presentes, porque son las que van a ayudar a garantizar la sostenibilidad de la empresa en el corto y mediano plazo. Se sugiere que se extraigan del plan de mercadeo o sean una derivación de este.
-          
+            p Definir los objetivos en términos de ingresos (dinero) y de clientes, estas dos son variables que deben estar presentes, porque son las que van a garantizar la sostenibilidad de la empresa en el corto y mediano plazo. 
+
+            p Se sugiere que se extraigan del plan de mercadeo o sean una derivación de este.
+
           .tarjeta.color-acento-botones.p-3(x="28.5%" y="29.8%" numero="")
             figure
               img(src='@/assets/curso/temas/tema2/img24.svg', alt='Texto que describa la imagen').width-img-tema2
@@ -329,7 +341,7 @@
             figure
               img(src='@/assets/curso/temas/tema2/img25.svg', alt='Texto que describa la imagen').width-img-tema2
             p #[b Presupuesto de ventas]
-            p En este #[i ítem] se debe detallar cuál es el presupuesto de ingresos (dinero) que se espera alcanzar para el año y para cada mes, y a partir de allí, dividirlo con las variables que se puedan segmentar, por ejemplo, presupuesto por segmento, por zona geográfica, por categoría de producto y por esquema comercial.
+            p En este ítem se debe determinar el presupuesto de ingresos (dinero) que se espera alcanzar tanto mensual como anual, y a partir de allí, dividirlo con las variables que se puedan segmentar, por ejemplo, presupuesto por segmento, por zona geográfica, por categoría de producto, por esquema comercial, etc.
 
           .tarjeta.color-acento-botones.p-3(x="70.6%" y="29.8%" numero="")
             figure
@@ -373,8 +385,8 @@
 
               .col-lg-10.mt-3
                 h4 Presupuesto de ventas
-                p Es el presupuesto anual y mensual aprobado por la alta gerencia; si se cuenta con plan comercial o plan de mercadeo no debe construirse nada adicional, aunque en algunos casos los directores de ventas elevan dichas cifras con el fin de tener un presupuesto más ambicioso para el equipo comercial.
-
+                p Es el presupuesto anual y mensual aprobado por la alta gerencia. Si se cuenta con plan comercial o plan de mercadeo no debe construirse nada adicional, aunque en algunos casos los directores de ventas elevan dichas cifras con el fin de tener un presupuesto más ambicioso para el equipo comercial.
+                
 
           .tarjeta.clr-paleYellow.p-4(titulo="Plan de acción")
             .row.justify-content-center.align-items-center
@@ -384,7 +396,7 @@
 
               .col-lg-10.mt-3
                 h4 Plan de acción
-                p Constituye el detalle exhaustivo de las tácticas y actividades a realizar, tanto a nivel de equipo como individual. En este se asocian responsables y líneas de tiempo (es decir, el cuándo). 
+                p Constituye el detalle exhaustivo de las tácticas y actividades a realizar, tanto a nivel de equipo como individual. En este se asocia responsables y líneas de tiempo (cuándo).
 
           .tarjeta.clr-paleYellow.p-4(titulo="Presupuesto de costos y gastos")
             .row.justify-content-center.align-items-center

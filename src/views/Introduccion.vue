@@ -13,7 +13,14 @@
       .col-lg-8
         .bloque-texto-b.color-secundario.p-4.mt-3 
           .bloque-texto-b__texto
-            p Estimado aprendiz, en este componente formativo se desarrollan contenidos relacionados con la presentación de la propuesta comercial y los aspectos a considerar en su estructuración, con enfoque al sector turístico. Desde el ámbito de las relaciones se presenta el componente de comunicación, donde se detallan los diversos tipos de comunicación, la importancia de manejar y controlar el flujo de información, así como los diversos canales de contacto, protocolos de comunicación y sus características. Respecto a las ventas, en este recurso se presenta cómo es el ciclo de venta y cuáles son sus componentes y etapas; adicionalmente, se muestran alternativas de cómo puede elaborarse un informe de ventas teniendo en cuenta los requerimientos de la organización. Con la revisión de las temáticas descritas anteriormente, el aprendiz estará en capacidad de generar propuestas y planes comerciales que potencialicen la gestión de ventas de productos turísticos.
+            p Estimado aprendiz, en este componente formativo se desarrollan contenidos relacionados con la presentación de la propuesta comercial y los aspectos a considerar en su estructuración, con enfoque al sector turístico. Desde el ámbito de las relaciones se presenta el componente de comunicación, donde se detallan los diversos tipos de esta, la importancia de manejar y controlar el flujo de información, así como los diversos canales de contacto, protocolos de comunicación y sus características. 
+            br 
+            br 
+            p Respecto a las ventas, en este recurso se presenta como es su ciclo y cuáles son sus componentes y etapas; adicionalmente, se muestran alternativas de cómo puede elaborarse un informe de ventas teniendo en cuenta los requerimientos de la organización. 
+            br 
+            br 
+            p Con el estudio de las temáticas descritas anteriormente, estará en capacidad de generar propuestas y planes comerciales que potencialicen la gestión de ventas de productos turísticos.
+
 
       .col-lg-4
         figure(data-aos="zoom-in")
