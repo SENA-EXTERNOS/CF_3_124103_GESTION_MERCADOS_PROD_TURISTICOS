@@ -43,54 +43,13 @@ export default {
         numero: '1',
         titulo: 'Comunicación',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Manejo y control de la información',
-            hash: 't_1_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.2',
-            titulo: 'Canales de contacto',
-            hash: 't_1_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.3',
-            titulo: 'Protocolos de comunicación comercial',
-            hash: 't_1_3',
-          },
-        ],
       },
-
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
         titulo: 'Ventas',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.1',
-            titulo: 'El ciclo de venta',
-            hash: 't_2_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.2',
-            titulo: 'Informes de ventas',
-            hash: 't_2_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.3',
-            titulo: 'Propuesta y plan comercial',
-            hash: 't_2_3',
-          },
-        ],
       },
     ],
     subMenu: [
@@ -149,14 +108,6 @@ export default {
       tipo: 'Libro',
       link:
         'https://utecno.files.wordpress.com/2013/06/administracic3b3n-de-ventas.pdf',
-    },
-    {
-      tema: '2. Ventas',
-      referencia:
-        'Navarro, M. (2012). <em>Técnicas de Ventas</em>. Red Tercer Milenio. ',
-      tipo: 'Libro',
-      link:
-        'http://www.aliat.org.mx/BibliotecasDigitales/economico_administrativo/Tecnicas_de_venta.pdf',
     },
     {
       tema: '2. Ventas',

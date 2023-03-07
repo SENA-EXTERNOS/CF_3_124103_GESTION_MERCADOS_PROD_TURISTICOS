@@ -18,13 +18,13 @@
         ul.lista-ul--color
           li 
             i.fas.fa-check
-            p.mb-0 La participación de dos roles (comprador y vendedor)
+            p.mb-0 La participación de dos roles (comprador y vendedor).
           li 
             i.fas.fa-check
-            p.mb-0 Un producto
+            p.mb-0 Un producto.
           li 
             i.fas.fa-check
-            p.mb-0 Un valor de intercambio (precio)
+            p.mb-0 Un valor de intercambio (precio).
 
 
     .row.justify-content-center.align-items-center.mb-5.mt-5
@@ -62,16 +62,16 @@
             ul.lista-ul--color
               li 
                 i.fas.fa-check
-                 p.mb-0 <b>Business to Business (B2B):</b>  son aquellas que realiza una empresa a otra empresa.
+                p.mb-0 <b>Business to Business (B2B):</b>  son aquellas que realiza una empresa a otra empresa.
 
               li 
                 i.fas.fa-check
-                 p.mb-0 <b>Business to Consumer (B2C):</b> son las que realiza una empresa al consumidor final.
+                p.mb-0 <b>Business to Consumer (B2C):</b> son las que realiza una empresa al consumidor final.
 
 
               li 
                 i.fas.fa-check
-                 p.mb-0 <b>Business to Government (B2G):</b> son aquellas en las que una empresa vende sus productos al gobierno o a entidades públicas.
+                p.mb-0 <b>Business to Government (B2G):</b> son aquellas en las que una empresa vende sus productos al gobierno o a entidades públicas.
 
             
 
@@ -90,15 +90,7 @@
             figure
               img(src='@/assets/curso/temas/tema2/img5.svg', alt='Texto que describa la imagen')
 
-        .row.justify-content-around.align-items-center
-          .col-md-6.mb-4.mb-md-0 
-            P #[b Fases del ciclo de venta]
-            p De acuerdo con lo anterior, a continuación se describen cada una de las fases que conforman el ciclo de venta, las cuales, de acuerdo con la estructura, deben darse secuencialmente: preventa (primer momento), venta (segundo momento) y posventa (tercer momento).
-
-          .col-md-6
-            figure
-              img(src='@/assets/curso/temas/tema2/img6.png', alt='Texto que describa la imagen')
-
+        
         .row.justify-content-around.align-items-center
           .col-md-6.mb-4.mb-md-0 
             P #[b Preventa]
@@ -154,7 +146,7 @@
       .col-lg-8
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Figura 5
-          span #[i Imagen alusiva a un informe empresarial]
+          span #[br] #[i Imagen alusiva a un informe empresarial]
 
         figure(data-aos="zoom-in")
           img(src="@/assets/curso/temas/tema2/img11.svg", alt="alt")
@@ -223,13 +215,12 @@
           img(src='@/assets/curso/temas/tema2/img13.svg', alt='Texto que describa la imagen') 
       .col-lg-8
         LineaTiempoD.color-secundario
-          .row(numero="1" titulo="¿Qué debe tener un informe de ventas?")
+          .row(numero="1" titulo="Botón 1")
             .col-md-12.mb-4.mb-md-0
               p.text-small La mayoría de las empresas hoy tienen centralizados los informes de ventas en áreas responsables de la generación de información; no obstante, sin importar si lo realiza el vendedor o algún área de la empresa, se deben tener en cuenta algunos aspectos mínimos a la hora de presentar un informe. A continuación, se dará una breve mirada para cada perspectiva.
 
-          .row(numero="2" titulo="¿Qué debe tener un informe de ventas?")
+          .row(numero="2" titulo="Cuando el informe de ventas lo realiza el vendedor ")
             .col-md-12.mb-4.mb-md-0
-              p.text-small Cuando el informe de ventas lo realiza el vendedor
 
               p.text-small En este caso es importante detallar:
 
@@ -265,7 +256,7 @@
                   i.fas.fa-check
                   p.mb-0.text-small Cumplimiento de cada vendedor: este indicador será importante para el director de ventas, ya que conocer el desempeño individual es de relevancia para mirar el aporte de cada uno hacia la meta.
 
-          .row(numero="4" titulo="Información clara")
+          .row(numero="4" titulo="Botón 4")
             .col-md-12.mb-4.mb-md-0
               p.text-small Adicional a lo anterior, es relevante no solo tener en cuenta qué indicadores debe contener el informe, sino que además tenga:
 
@@ -293,7 +284,7 @@
       .bloque-texto-g__texto.p-4
         p.mb-0 El plan comercial y la propuesta comercial son dos elementos claves dentro de las ventas; el primero (plan comercial) da línea de cómo la empresa concibe el modelo comercial, en este se plantean cuáles son las tácticas y actividades puntuales que llevarán al cumplimiento de las ventas; con la segunda herramienta (propuesta comercial) se muestra un proceso de ventas estructurado, donde al cliente se le da a conocer de una forma clara, cuál es la oferta comercial que le ofrece la empresa. 
 
-    .row.justify-content-around.align-items-center.mt-5
+    .row.justify-content-around.align-items-center.mt-5.mb-5
       .col-lg-4
         figure(data-aos="zoom-in")
           img(src='@/assets/curso/temas/tema2/img22.svg', alt='Texto que describa la imagen').banner-principal-decorativo-5

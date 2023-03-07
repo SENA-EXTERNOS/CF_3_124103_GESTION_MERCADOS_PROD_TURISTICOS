@@ -314,7 +314,7 @@
                   img(src='@/assets/curso/temas/tema1/img19.svg', alt='')
 
               .col-lg-7.mb-4.mb-lg-0
-                p.mt-3 #[b Las redes sociales: ]  en los últimos años este canal ha ido en ascenso, las marcas y empresas las utilizan para generar todo tipo de interacciones con sus clientes actuales y potenciales. Las redes sociales más utilizadas por las empresas en Colombia son Twitter, Facebook, LinkedIn y YouTube.
+                p.mt-3 #[b Redes sociales: ]  en los últimos años este canal ha ido en ascenso, las marcas y empresas las utilizan para generar todo tipo de interacciones con sus clientes actuales y potenciales. Las redes sociales más utilizadas por las empresas en Colombia son Twitter, Facebook, LinkedIn y YouTube.
 
             .row.justify-content-center(titulo="Canal 5").pt-3
               .col-lg-4.col-xs-6
@@ -340,13 +340,11 @@
               .col-lg-7.mb-4.mb-lg-0
                 p.mt-3 #[b Correo electrónico (#[i e-mail]): ] este medio sirve para enviar y recibir mensajes a través de redes de comunicación electrónica; así mismo, posibilita informar las novedades de una marca o producto. Adicionalmente, es útil como medio para dejar trazabilidad de la comunicación con un cliente.
 
-            .row.justify-content-center(titulo="Canal 8").pt-3
-              .col-lg-4.col-xs-6
-                figure
-                  img(src='@/assets/curso/temas/tema1/img23.svg', alt='')
-
-              .col-lg-7.mb-4.mb-lg-0
-                p.mt-3 #[b Tipos de canales: ] En el contexto actual, lo ideal es que la empresa utilice todos los canales (presencial, telefónico y digital), esto posibilita brindar una mejor experiencia al cliente, ya que le da la oportunidad a este de decidir con cuál canal se siente más cómodo para contactar a la empresa.
+    .row.justify-content-center.align-items-center.mb-5.mt-5
+      .col-lg-10
+        .cajonAmarillo.bgr-tarjeta-tema1.p-4
+          strong Tipos de canales 
+          p.mb-0 En el contexto actual, lo ideal es que la empresa utilice todos los canales (presencial, telefónico y digital), permitiendo brindar una mejor experiencia al cliente, ya que le da la oportunidad a este de decidir con cuál canal se siente más cómodo para contactar a la empresa.        
 
 
           
@@ -358,7 +356,7 @@
           p.mb-0 #[b Protocolos de comunicación comercial]
 
 
-    .row.justify-content-around.align-items-center.mt-5
+    .row.justify-content-around.align-items-center
       .col-lg-3
         figure(data-aos="zoom-in")
           img(src='@/assets/curso/temas/tema1/img24.svg', alt='Texto que describa la imagen') 
@@ -379,13 +377,9 @@
 
           p(numero="2" titulo="Código de vestuario") En el contexto de los vendedores, el código de vestuario está asociado principalmente al tipo de portafolio que comercializan, a la empresa que representan y al tipo de cliente con el que interactúan. <br> Por ejemplo, en el sector turístico es muy usual que los diferentes actores de la cadena usen uniforme, porque permite la identificación de la marca; sin embargo, en ventas empresariales el vestuario es más formal y propio de cada vendedor.
 
-          p(numero="3" titulo="Identificación de la marca") Por ejemplo, en el sector turismo es muy usual que los diferentes actores de la cadena usen uniforme porque permite la identificación de la marca; sin embargo, en ventas empresariales el vestuario es más formal y propio de cada vendedor.
+          p(numero="3" titulo="Forma de presentarse con el cliente") La empresa debe definir cómo se deben presentar los colaboradores cuando van a tener interacción con un cliente (Protocolo de presentación). Sin embargo, lo mínimo que se debe asegurar es saludar, indicar el nombre con apellidos y el cargo. 
 
-          p(numero="4" titulo="Forma de presentarse con el cliente") La empresa debe definir cómo se deben presentar los colaboradores cuando van a tener interacción con un cliente (Protocolo de presentación). Sin embargo, lo mínimo que se debe asegurar es saludar, indicar el nombre con apellidos y el cargo. 
-
-          p(numero="5" titulo="Normas de cortesía") La empresa debe definir cómo se deben presentar los colaboradores cuando van a tener interacción con un cliente (Protocolo de presentación). Sin embargo, lo mínimo que se debe asegurar es saludar, indicar el nombre con apellidos y el cargo. 
-
-          p(numero="6" titulo="Etiqueta empresarial") A modo de referente, Bogotá Emprende, a través de la Secretaría de Desarrollo Económico de Bogotá, Cámara de Comercio de Bogotá, plantea las reglas de oro en materia de etiqueta empresarial, las cuales tienen como fin dar algunas pautas para los colaboradores de la empresa, que permitan orientar de una forma más asertiva la comunicación.
+          p(numero="4" titulo="Normas de cortesía") Deben hacer parte de cada individuo, sin importar su rol. Es importante resaltar que con los clientes siempre deben estar presentes las normas de cortesía, las cuales se reflejan en gestos como saludar, despedirse, dar las gracias y pedir el favor (comunicación verbal y no verbal). 
 
       .col-8.col-lg-4.mt-3
         figure
