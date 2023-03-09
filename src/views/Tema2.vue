@@ -215,7 +215,7 @@
           img(src='@/assets/curso/temas/tema2/img13.svg', alt='Texto que describa la imagen') 
       .col-lg-8
         LineaTiempoD.color-secundario
-          .row(numero="1" titulo="Botón 1")
+          .row(numero="1" titulo="Informe de ventas")
             .col-md-12.mb-4.mb-md-0
               p.text-small La mayoría de las empresas hoy tienen centralizados los informes de ventas en áreas responsables de la generación de información; no obstante, sin importar si lo realiza el vendedor o algún área de la empresa, se deben tener en cuenta algunos aspectos mínimos a la hora de presentar un informe. A continuación, se dará una breve mirada para cada perspectiva.
 
@@ -256,12 +256,11 @@
                   i.fas.fa-check
                   p.mb-0.text-small Cumplimiento de cada vendedor: este indicador será importante para el director de ventas, ya que conocer el desempeño individual es de relevancia para mirar el aporte de cada uno hacia la meta.
 
-          .row(numero="4" titulo="Botón 4")
-            .col-md-12.mb-4.mb-md-0
               p.text-small Adicional a lo anterior, es relevante no solo tener en cuenta qué indicadores debe contener el informe, sino que además tenga:
 
-              p.text-small Información clara que permita entender fácilmente lo que se está mostrando.
+              p.text-small Información clara que permita entender fácilmente lo que se está mostrando.    
 
+          
           .row(numero="5" titulo="Informe dinámico")
             .col-md-12.mb-4.mb-md-0
               p.text-small Es decir, debe permitir realizar modificaciones, ajustes, eliminar o incluir información adicional.
@@ -358,7 +357,7 @@
     .row
       .col-lg-12.order-2.order-lg-1
         TabsA.color-acento-contenido.mb-5        
-          .tarjeta.clr-paleYellow.p-4(titulo="Objetivos")
+          .tarjeta.clr-paleYellow.p-4.text-center(titulo="Objetivos")
             .row.justify-content-center.align-items-center
               .col-lg-2
                 figure(data-aos="zoom-in")
@@ -368,7 +367,7 @@
                 h4 Objetivos
                 p Son aquellos que se definieron en el plan comercial. En caso de que la empresa no cuente con plan comercial, debe revisarse el plan de mercadeo, y en caso de que tampoco esté definido, se deben establecer en términos de ventas.
 
-          .tarjeta.clr-paleYellow.p-4(titulo="Presupuesto de ventas")
+          .tarjeta.clr-paleYellow.p-4.text-center(titulo="Presupuesto de<br> ventas")
             .row.justify-content-center.align-items-center
               .col-lg-2
                 figure(data-aos="zoom-in")
@@ -379,7 +378,7 @@
                 p Es el presupuesto anual y mensual aprobado por la alta gerencia. Si se cuenta con plan comercial o plan de mercadeo no debe construirse nada adicional, aunque en algunos casos los directores de ventas elevan dichas cifras con el fin de tener un presupuesto más ambicioso para el equipo comercial.
                 
 
-          .tarjeta.clr-paleYellow.p-4(titulo="Plan de acción")
+          .tarjeta.clr-paleYellow.p-4.text-center(titulo="Plan de acción")
             .row.justify-content-center.align-items-center
               .col-lg-2
                 figure(data-aos="zoom-in")
@@ -389,7 +388,7 @@
                 h4 Plan de acción
                 p Constituye el detalle exhaustivo de las tácticas y actividades a realizar, tanto a nivel de equipo como individual. En este se asocia responsables y líneas de tiempo (cuándo).
 
-          .tarjeta.clr-paleYellow.p-4(titulo="Presupuesto de costos y gastos")
+          .tarjeta.clr-paleYellow.p-4.text-center(titulo="Presupuesto de<br> costos y gastos")
             .row.justify-content-center.align-items-center
               .col-lg-2
                 figure(data-aos="zoom-in")
@@ -400,7 +399,7 @@
                 p Si bien se dispone de un presupuesto de ingresos, el plan de ventas debe definir también el escenario planteado de costos y gastos, con el fin de asegurar que haya resultados favorables para la operación comercial.
 
 
-          .tarjeta.clr-paleYellow.p-4(titulo="Seguimiento y control")
+          .tarjeta.clr-paleYellow.p-4.text-center(titulo="Seguimiento y<br> control")
             .row.justify-content-center.align-items-center
               .col-lg-2
                 figure(data-aos="zoom-in")
