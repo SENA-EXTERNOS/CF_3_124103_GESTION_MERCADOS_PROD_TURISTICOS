@@ -217,57 +217,57 @@
         LineaTiempoD.color-secundario
           .row(numero="1" titulo="Informe de ventas")
             .col-md-12.mb-4.mb-md-0
-              p.text-small La mayoría de las empresas hoy tienen centralizados los informes de ventas en áreas responsables de la generación de información; no obstante, sin importar si lo realiza el vendedor o algún área de la empresa, se deben tener en cuenta algunos aspectos mínimos a la hora de presentar un informe. A continuación, se dará una breve mirada para cada perspectiva.
+              p La mayoría de las empresas hoy tienen centralizados los informes de ventas en áreas responsables de la generación de información; no obstante, sin importar si lo realiza el vendedor o algún área de la empresa, se deben tener en cuenta algunos aspectos mínimos a la hora de presentar un informe. A continuación, se dará una breve mirada para cada perspectiva.
 
           .row(numero="2" titulo="Cuando el informe de ventas lo realiza el vendedor ")
             .col-md-12.mb-4.mb-md-0
 
-              p.text-small En este caso es importante detallar:
+              p En este caso es importante detallar:
 
               ul.lista-ul--color
                 li 
                   i.fas.fa-check
-                  p.mb-0.text-small Cumplimiento de la cuota de ventas: la cuota de ventas representa el total de dinero (y en algunas empresas cantidades) que se espera reúna un vendedor al finalizar el mes; en esta línea, el cumplimiento representa lo logrado sobre lo esperado.
+                  p.mb-0 Cumplimiento de la cuota de ventas: la cuota de ventas representa el total de dinero (y en algunas empresas cantidades) que se espera reúna un vendedor al finalizar el mes; en esta línea, el cumplimiento representa lo logrado sobre lo esperado.
 
                 li 
                   i.fas.fa-check
-                  p.mb-0.text-small Cantidad de clientes visitados.
+                  p.mb-0 Cantidad de clientes visitados.
 
                 li 
                   i.fas.fa-check
-                  p.mb-0.text-small Cantidad de propuestas o cotizaciones enviadas.
+                  p.mb-0 Cantidad de propuestas o cotizaciones enviadas.
 
           .row(numero="3" titulo="Cuando el informe de ventas lo realiza un grupo de la empresa")
             .col-md-12.mb-4.mb-md-0
-              p.text-small En este caso se presenta la información consolidada de la gestión comercial, para ello se deben mostrar los siguientes elementos:
+              p En este caso se presenta la información consolidada de la gestión comercial, para ello se deben mostrar los siguientes elementos:
 
-              p.text-small En este caso es importante detallar:
+              p En este caso es importante detallar:
 
               ul.lista-ul--color
                 li 
                   i.fas.fa-check
-                  p.mb-0.text-small Cumplimiento del presupuesto de ventas: es el porcentaje que muestra la cantidad de dinero vendido hasta la fecha, dividido entre el total de dinero esperado. En el caso de que no solo exista presupuesto de ventas en dinero, sino también en cantidades o volumen, se debe mostrar el indicador.
+                  p.mb-0 Cumplimiento del presupuesto de ventas: es el porcentaje que muestra la cantidad de dinero vendido hasta la fecha, dividido entre el total de dinero esperado. En el caso de que no solo exista presupuesto de ventas en dinero, sino también en cantidades o volumen, se debe mostrar el indicador.
 
                 li 
                   i.fas.fa-check
-                  p.mb-0.text-small Cumplimiento del presupuesto de ventas por canales, regiones o segmentos: las empresas con frecuencia dividen su presupuesto por canales de venta, regiones geográficas o segmentos de clientes; en este sentido, se deberá mostrar el comportamiento de la ejecución de las ventas sobre lo planeado.
+                  p.mb-0 Cumplimiento del presupuesto de ventas por canales, regiones o segmentos: las empresas con frecuencia dividen su presupuesto por canales de venta, regiones geográficas o segmentos de clientes; en este sentido, se deberá mostrar el comportamiento de la ejecución de las ventas sobre lo planeado.
 
                 li 
                   i.fas.fa-check
-                  p.mb-0.text-small Cumplimiento de cada vendedor: este indicador será importante para el director de ventas, ya que conocer el desempeño individual es de relevancia para mirar el aporte de cada uno hacia la meta.
+                  p.mb-0 Cumplimiento de cada vendedor: este indicador será importante para el director de ventas, ya que conocer el desempeño individual es de relevancia para mirar el aporte de cada uno hacia la meta.
 
-              p.text-small Adicional a lo anterior, es relevante no solo tener en cuenta qué indicadores debe contener el informe, sino que además tenga:
+              p Adicional a lo anterior, es relevante no solo tener en cuenta qué indicadores debe contener el informe, sino que además tenga:
 
-              p.text-small Información clara que permita entender fácilmente lo que se está mostrando.    
+              p Información clara que permita entender fácilmente lo que se está mostrando.    
 
           
-          .row(numero="5" titulo="Informe dinámico")
+          .row(numero="4" titulo="Informe dinámico")
             .col-md-12.mb-4.mb-md-0
-              p.text-small Es decir, debe permitir realizar modificaciones, ajustes, eliminar o incluir información adicional.
+              p Es decir, debe permitir realizar modificaciones, ajustes, eliminar o incluir información adicional.
 
-          .row(numero="6" titulo="Información precisa")
+          .row(numero="5" titulo="Información precisa")
             .col-md-12.mb-4.mb-md-0
-              p.text-small Que incluya datos actualizados y puntuales.
+              p Que incluya datos actualizados y puntuales.
 
 
     .row.mt-3
@@ -356,57 +356,52 @@
 
     .row
       .col-lg-12.order-2.order-lg-1
-        TabsA.color-acento-contenido.mb-5        
-          .tarjeta.clr-paleYellow.p-4.text-center(titulo="Objetivos")
+        TabsC.color-acento-contenido.mb-5        
+          .tarjeta.clr-paleYellow.p-4.mb-3.text-center(titulo="Objetivos")
             .row.justify-content-center.align-items-center
               .col-lg-2
                 figure(data-aos="zoom-in")
                   img(src='@/assets/curso/temas/tema2/img15.svg', alt='Texto que describa la imagen').width-img-tema2
 
               .col-lg-10
-                h4 Objetivos
                 p Son aquellos que se definieron en el plan comercial. En caso de que la empresa no cuente con plan comercial, debe revisarse el plan de mercadeo, y en caso de que tampoco esté definido, se deben establecer en términos de ventas.
 
-          .tarjeta.clr-paleYellow.p-4.text-center(titulo="Presupuesto de<br> ventas")
+          .tarjeta.clr-paleYellow.p-4.mb-3.text-center(titulo="Presupuesto de ventas")
             .row.justify-content-center.align-items-center
               .col-lg-2
                 figure(data-aos="zoom-in")
                   img(src='@/assets/curso/temas/tema2/img16.svg', alt='Texto que describa la imagen').width-img-tema2
 
               .col-lg-10.mt-3
-                h4 Presupuesto de ventas
                 p Es el presupuesto anual y mensual aprobado por la alta gerencia. Si se cuenta con plan comercial o plan de mercadeo no debe construirse nada adicional, aunque en algunos casos los directores de ventas elevan dichas cifras con el fin de tener un presupuesto más ambicioso para el equipo comercial.
                 
 
-          .tarjeta.clr-paleYellow.p-4.text-center(titulo="Plan de acción")
+          .tarjeta.clr-paleYellow.p-4.mb-3.text-center(titulo="Plan de acción")
             .row.justify-content-center.align-items-center
               .col-lg-2
                 figure(data-aos="zoom-in")
                   img(src='@/assets/curso/temas/tema2/img17.svg', alt='Texto que describa la imagen').width-img-tema2 
 
               .col-lg-10.mt-3
-                h4 Plan de acción
                 p Constituye el detalle exhaustivo de las tácticas y actividades a realizar, tanto a nivel de equipo como individual. En este se asocia responsables y líneas de tiempo (cuándo).
 
-          .tarjeta.clr-paleYellow.p-4.text-center(titulo="Presupuesto de<br> costos y gastos")
+          .tarjeta.clr-paleYellow.p-4.mb-3.text-center(titulo="Presupuesto de costos y gastos")
             .row.justify-content-center.align-items-center
               .col-lg-2
                 figure(data-aos="zoom-in")
                   img(src='@/assets/curso/temas/tema2/img18.svg', alt='Texto que describa la imagen').width-img-tema2
 
               .col-lg-10.mt-3
-                h4 Presupuesto de costos y gastos
                 p Si bien se dispone de un presupuesto de ingresos, el plan de ventas debe definir también el escenario planteado de costos y gastos, con el fin de asegurar que haya resultados favorables para la operación comercial.
 
 
-          .tarjeta.clr-paleYellow.p-4.text-center(titulo="Seguimiento y<br> control")
+          .tarjeta.clr-paleYellow.p-4.mb-3.text-center(titulo="Seguimiento y control")
             .row.justify-content-center.align-items-center
               .col-lg-2
                 figure(data-aos="zoom-in")
                   img(src='@/assets/curso/temas/tema2/img19.svg', alt='Texto que describa la imagen').width-img-tema2
 
               .col-lg-10.mt-3
-                h4 Seguimiento y control
                 p Como mínimo se debería tener un control semanal del presupuesto de ventas, costos y gastos comerciales, con el fin de realizar los ajustes requeridos en los tiempos oportunos. 
 
     .row.mt-3
