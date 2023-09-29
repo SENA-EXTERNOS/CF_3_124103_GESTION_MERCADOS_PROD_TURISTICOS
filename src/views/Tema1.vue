@@ -306,7 +306,7 @@
                   img(src='@/assets/curso/temas/tema1/img18.svg', alt='')
 
               .col-lg-7.mb-4.mb-lg-0
-                p.mt-3 #[b Canales digitales: ] son los canales que están soportados por la tecnología; se caracterizan por ser bidireccionales, es decir, que el emisor envía la información, y haciendo uso del mismo canal, el receptor le responde. Los más utilizados son las redes sociales, aplicaciones para mensajería instantánea, chatbots y el correo electrónico.
+                p.mt-3 #[b Canales digitales: ] son los canales que están soportados por la tecnología; se caracterizan por ser bidireccionales, es decir, que el emisor envía la información, y haciendo uso del mismo canal, el receptor le responde. Los más utilizados son las redes sociales, aplicaciones para mensajería instantánea, <i>chatbots</i> y el correo electrónico.
 
             .row.justify-content-center(titulo="Canal 4").pt-3
               .col-lg-4.col-xs-6
@@ -322,7 +322,7 @@
                   img(src='@/assets/curso/temas/tema1/img20.svg', alt='')
 
               .col-lg-7.mb-4.mb-lg-0
-                p.mt-3 #[b Aplicaciones para mensajería instantánea: ] denominadas también apps de chat o apps de mensajería, son canales en los que se puede hablar en tiempo real a través de la mediación tecnológica; permiten la comunicación vía texto, llamada o videollamada, sin embargo, requieren que tanto emisor como receptor cuenten con un dispositivo con conectividad (computador, tablet o smartphone). Las apps de mensajería más utilizadas actualmente son: WhatsApp, Telegram, Facebook Messenger, Snapchat y Google chat.
+                p.mt-3 #[b Aplicaciones para mensajería instantánea: ] denominadas también apps de chat o apps de mensajería, son canales en los que se puede hablar en tiempo real a través de la mediación tecnológica; permiten la comunicación vía texto, llamada o videollamada, sin embargo, requieren que tanto emisor como receptor cuenten con un dispositivo con conectividad (computador, <i>tablet</i> o <i>smartphone</i>). Las apps de mensajería más utilizadas actualmente son: WhatsApp, Telegram, Facebook Messenger, Snapchat y Google chat.
 
             .row.justify-content-center(titulo="Canal 6").pt-3
               .col-lg-4.col-xs-6
@@ -330,7 +330,7 @@
                   img(src='@/assets/curso/temas/tema1/img21.svg', alt='')
 
               .col-lg-7.mb-4.mb-lg-0
-                p.mt-3 #[b Chatbots: ] este medio de atención al cliente es sin duda el más rápido, teniendo en cuenta que se trata de un canal muy eficaz. Los chatbots aparecieron hace pocos años, como una tecnología novedosa que permite la atención automatizada del cliente utilizando la inteligencia artificial; este tipo de tecnología es relativamente útil para hacer preguntas técnicas, sin embargo, su desventaja es que aún no es lo suficientemente eficaz como para mantener conversaciones en lenguaje natural.
+                p.mt-3 <b> <i>Chatbots:</i></b>  este medio de atención al cliente es sin duda el más rápido, teniendo en cuenta que se trata de un canal muy eficaz. Los <i>chatbots</i> aparecieron hace pocos años, como una tecnología novedosa que permite la atención automatizada del cliente utilizando la inteligencia artificial; este tipo de tecnología es relativamente útil para hacer preguntas técnicas, sin embargo, su desventaja es que aún no es lo suficientemente eficaz como para mantener conversaciones en lenguaje natural.
 
             .row.justify-content-center(titulo="Canal 7").pt-3
               .col-lg-4.col-xs-6

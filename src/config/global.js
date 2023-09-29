@@ -94,7 +94,7 @@ export default {
   },
   complementario: [
     {
-      tema: '1.1 Manejo y control de la información',
+      tema: 'Manejo y control de la información',
       referencia:
         'ISO 27001. (2013). <em>Sistemas de Gestión de Seguridad de la Información.</em>',
       tipo: 'Norma',
@@ -102,7 +102,7 @@ export default {
         'https://www.isotools.org/pdfs-pro/iso-27001-sistema-gestion-seguridad-informacion.pdf',
     },
     {
-      tema: '2. Ventas',
+      tema: 'Ventas',
       referencia:
         'Johnston, M. y Marshall, G. (2009). <em>Administración de Ventas</em>. Editorial Mc. Graw Hill. Novena Edición.',
       tipo: 'Libro',
@@ -110,7 +110,7 @@ export default {
         'https://utecno.files.wordpress.com/2013/06/administracic3b3n-de-ventas.pdf',
     },
     {
-      tema: '2. Ventas',
+      tema: 'Ventas',
       referencia:
         'Tracy, B., (2005). <em>Psicología de ventas</em>. Editorial Caribe INC. ',
       tipo: 'Libro',
